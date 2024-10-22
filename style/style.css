@@ -197,10 +197,6 @@ footer input[type="text"], footer input[type=email], footer textarea{
 
 /* responsive media query */
 
-.hide{
-    display: none;
-}
-
 @media screen and (max-width:576px) {
     .skills-container, .about-iteams, .banner, nav, nav > ul{
         flex-direction: column;
@@ -234,5 +230,13 @@ footer input[type="text"], footer input[type=email], footer textarea{
     }
     .baner-profile-pic{
         width: 100%;
+    }
+}
+
+/* tablet responsiv query */
+
+@media screen and (min-width:576px) and (max-width:992){
+    .banner{
+        flex-direction: column;
     }
 }
